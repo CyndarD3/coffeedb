@@ -30,7 +30,6 @@ class main_window(QMainWindow):
 class redact(QWidget):
     def __init__(self):
         super().__init__()
-        uic.loadUi('addEditCoffeeForm.ui', self)
         pass
 
 
